@@ -4,12 +4,8 @@ body {
     color: rgb(112, 95, 87);
 }
 
-.contato {
-    background-color: rgb(236, 234, 230);
-
-}
-
 .info {
+    background-color: rgb(236, 234, 230);
     border: 2px solid rgb(151, 139, 139);
     display: flex;
     flex-direction: row;
