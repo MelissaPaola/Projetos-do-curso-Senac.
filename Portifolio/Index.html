@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-BR"> <!--Essa tag é sobre a linguagem da página-->
 
-<head>
+<head> <!--cabeçalho-->
     <meta charset="UTF-8"> <!--Essa tag é sobre um conjunto de caracteres-->
     <title>Melissa Paola</title> <!--Título da página-->
-    <link rel="Icon" href="assets/perfil.png"> <!--Essa tag relaciona meus estilos-->
+    <link rel="icon" href="assets/b8229faa11fd5c0b6150d2b8c8b90e80-removebg-preview.png"> <!--Essa tag relaciona meus estilos-->
+    <link rel="stylesheet" href="style.css"> <!--Essa tag relaciona meus estilos-->
     <script src="App.js"></script> <!--Essa tag ativa o java script-->
 </head>
 
-<body>
+<body> <!--corpo-->
     <header>
         <a href="#apres">Início</a>
         <a href="#sobre">Sobre mim</a>
@@ -20,7 +21,7 @@
         <section id="apres">
             <h1>Melissa Paola Santos de Souza.</h1>
             <h2>Estudante.</h2>
-            <img src="https://i.pinimg.com/236x/b8/22/9f/b8229faa11fd5c0b6150d2b8c8b90e80.jpg" alt="Foto minha">
+            <img src="assets/b8229faa11fd5c0b6150d2b8c8b90e80-removebg-preview.png" alt="Foto minha">
     </main>
     </section>
 
@@ -33,9 +34,8 @@
     </section>
 
 
-    <section class="info">
+    <section id="info">
         <small>Contato:</small>
-        <a href="https://github.com/MelissaPaola" target="_blank">github</a>
         <a href="mailto:" class="mim>Melissa.paola.s.souza@gmail.com"
             target="_blank">Melissa.paola.s.souza@gmail,com</a>
         <p class="mim">(11) 91308-8915</p>
@@ -46,7 +46,7 @@
     <hr>
 
     <section id="sobre">
-        <small>Sobre:</small>
+        <h3>Sobre:</h3>
         <p class="bio"> Sou estudante do Ensino Médio e busco minha primeira oportunidade como jovem aprendiz
             afim de
             adquirir conhecimentos, desenvolver habilidades profissionais e contribuir para o ambiente de
@@ -57,6 +57,7 @@
     </section>
 
     <section id="habil">
+        <hr>
         <h3>Habilidades</h3>
         <div>
             <h4>Soft Skills</h4>
@@ -87,9 +88,21 @@
         </div>
 
         <div>
+            <br>
             <h5>Seguir</h5>
             <ul>
-                <li><a href="https://github.com/MelissaPaola" target="_blank">github</a></li>
+                <li>
+                    <a href="https://github.com/MelissaPaola" target="_blank">
+                        <svg class="icone"><use href="assets/GithubIco.svg"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="" target="_blank">
+                        <svg class="icone"><use href=""></use>
+                        </svg>
+                    </a>
+                </li>
             </ul>
         </div>
 

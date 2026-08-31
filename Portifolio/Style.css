@@ -1,33 +1,58 @@
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+/*CSS Vem aqui em baixo*/
+header {
+   background-color: #98ad70;
+   padding: 20px 0px;
+   position: fixed;
+   width: 100%;
+}
+
 body {
-    background-color: rgb(228, 207, 202);
-    /* cor de fundo */
-    color: rgb(112, 95, 87);
+   font-family: 'Arial', sans-serif;
+   background-color: #dee9d5;
+   color: #536F3E;
 }
 
-.info {
-    background-color: rgb(236, 234, 230);
-    border: 2px solid rgb(151, 139, 139);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-
+body a {
+   text-transform: uppercase;
+   text-decoration: none;
+   color: #3D5F23;
 }
 
-.mim {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    color: rgb(177, 146, 146);
+body a:hover {
+   text-decoration: underline;
+   color: rgb(104, 88, 68);
+   font-weight: bold;
 
 }
 
-.sobre {
-    background-color: rgb(236, 234, 230);
-    border: 2px solid rgb(151, 139, 139);
-
+#apres {
+   margin-bottom: 20px;
+   background-color: rgb(255, 253, 253);
+   padding-top: 60px;
 }
 
-.bio {
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
+#info {
+   padding-top: 60px;
+}
 
+#sobre {
+   padding-top: 60px;
+}
+
+#habil {
+   padding-top: 60px;
+}
+footer {
+   background-color: #aec08c;
+}
+.icon {
+   fill: white;
+   stroke: black;
+   stroke-width: 5px;
+   width: 50px;
 }
