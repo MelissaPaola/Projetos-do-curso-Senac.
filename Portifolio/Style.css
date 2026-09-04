@@ -35,33 +35,67 @@ body a:hover {
    margin-bottom: 20px;
    background-color: rgb(255, 253, 253);
    padding-top: 60px;
+   gap: 50px;
+   display: flex;
+   gap: 200px;
 }
-
 #info {
+    display: flex;
+   gap: 50px;
    padding-top: 60px;
+   padding-inline: 50px;
 }
 
 #sobre {
    padding-top: 60px;
+   display: flex;
+   flex-direction: column;
+   padding-inline: 90px;
 }
 
 #habil {
    padding-top: 60px;
+   padding-top: 60px;
+   display: flex;
+   gap: 50px;
 }
+
 footer {
    background-color: #98ad70;
 }
-footer ul{
+
+footer ul {
    display: flex;
    flex-direction: row;
    justify-content: space-around;
    list-style-type: none;
 }
+
 .icone {
    fill: #536F3E;
    stroke: #536F3E;
    stroke-width: 5px;
    width: 50px;
    height: 50px;
-   
+
+}
+
+.iconsobre {
+   width: 25px;
+   height: 25px;
+   fill: #536F3E;
+}
+.linksicon {
+   display: flex;
+   flex-direction: row;
+   justify-items: center;
+   justify-content: center;
+   width: 120px;
+   gap: 5px;
+   padding: 5px;
+}
+.blockicon {
+display: flex;
+flex-direction: column;
+padding: 5px;
 }
